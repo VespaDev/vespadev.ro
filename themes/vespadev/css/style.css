@@ -103,7 +103,7 @@ h5.job-vespa {
   display: none;
 }
 
-.views-field-field-info- h6{
+.views-field-field-info1 h6{
     font-size: 14px;
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
@@ -112,13 +112,13 @@ h5.job-vespa {
     margin-bottom: 12px;
     color: #222222;
 }
-.views-field-field-namee h3{
+.views-field-field-namee1 h3{
   font-size: 48px;
     text-transform: uppercase;
     margin-bottom: 15px;
     color: #222222;
 }
-.views-field-field-job h4{
+.views-field-field-job1 h4{
     font-size: 16px;
     font-weight: 500;
     font-family: "Roboto", sans-serif;
@@ -126,16 +126,16 @@ h5.job-vespa {
     margin-bottom: 20px;
     color: #222222;
 }
-.views-field-body p{
+.views-field-field-bio1 p{
   font-family: "Roboto", sans-serif;
   max-width: 540px;
   color: #222222;
   margin-bottom: 40px;
 }
-.views-field-field-data-nastere h6,
-.views-field-field-phone-number h6,
-.views-field-field-email h6,
-.views-field-field-adress h6
+.views-field-field-data-nastere1 h6,
+.views-field-field-phone-number1 h6,
+.views-field-field-email1 h6,
+.views-field-field-adress1 h6
 {
     position: relative;
     padding-left: 40px;
@@ -146,14 +146,32 @@ h5.job-vespa {
   background: #EDF5E1;
   padding: 30px;
   box-shadow: 0px 0px 15px #1A396A;
-}
-.views-field-field-avatar .center-photo{
   margin-top: 50px;
 }
-.views-field-field-avatar .center-photo .photo-avatar{
+.views-field-field-pozaa .center-photo{
+  margin-top:80px;
+}
+.views-field-field-pozaa .center-photo .photo-avatar{
   height: 400px;
   vertical-align: middle;
   border-style: none;
   border-radius: 20px;
-  box-shadow: 0px 0px 15px blackw;
+  box-shadow: 0px 0px 15px black;
+}
+h1.not-found {
+    font-size: 250px;
+    font-weight: 800;
+    letter-spacing: 30px;
+    text-align: center;
+    color: white !important;
+    text-shadow: 0px 0px 10px white;
+}
+h2.page-not {
+    text-align: center;
+    font-size: 100px;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 15px;
+    word-spacing: 120px;
+    text-decoration: overline;
 }
