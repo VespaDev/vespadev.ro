@@ -1,0 +1,30 @@
+uuid: fb47cb3c-7a3c-4d16-afb8-5371467c3ad3
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.lista-retete
+  module:
+    - system
+  theme:
+    - vespadev
+id: vespadev_listaretete
+theme: vespadev
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:lista-retete'
+settings:
+  id: 'system_menu_block:lista-retete'
+  label: 'Lista retete'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    pages: "/cake\r\n/clatite\r\n/tiramisu\r\n/ciocolata"
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,8 @@
+uuid: ccf80cd5-f0b2-4347-b9f1-c6bdb4b586a0
+langcode: en
+status: true
+dependencies: {  }
+id: prices
+label: Prices
+description: ''
+locked: false

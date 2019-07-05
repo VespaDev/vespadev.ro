@@ -1,0 +1,21 @@
+uuid: dd45027b-f57a-4a7e-9140-a70c8aa42ccc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_titlu
+    - node.type.recipe
+  module:
+    - text
+id: node.recipe.field_titlu
+field_name: field_titlu
+entity_type: node
+bundle: recipe
+label: Titlu
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

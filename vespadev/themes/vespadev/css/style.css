@@ -1,0 +1,159 @@
+@media screen and (min-width: 768px)
+{
+  body {
+    margin-top: 0px;
+  }
+}
+/*Nice collors
+
+#whute #F5F5F5
+#black_menu #3C3C3C
+#red #FF5A5F
+*/
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap');
+body{
+  background: #5CDB95;
+  font-family: 'DM Serif Display', serif;
+
+}
+.vespadev-navbar{
+  background: #05386b;
+  color:#EDF5E1;
+  border:none;
+  border-radius: 0px;
+}
+.navbar-default .navbar-toggle{
+  border:2px solid #5CDB95;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:active,
+.navbar-default .navbar-toggle:focus{
+  background: #5CDB95;
+  color:white;
+}
+.navbar-default .navbar-collapse{
+  border:none;
+}
+.navbar-default .navbar-toggle:hover .icon-bar,
+.navbar-default .navbar-toggle:focus .icon-bar{
+  background: white;
+}
+.navbar-default .navbar-toggle .icon-bar{
+  background: #5CDB95;
+}
+.navbar-default .navbar-nav > .active > a{
+  background-color: transparent !important;
+}
+.navbar-brand{
+  color:#EDF5E1 !important;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-weight: monospace;
+  font-size: 21px;
+}
+.vespa-nav-links > li > a{
+  color:#EDF5E1 !important;
+  font-weight: 600;
+  font-family: monospace;
+  letter-spacing: 0.5px;
+}
+.photo-avatar{
+  width: 300px;
+  height: 300px;
+  border-radius: 999px;
+}
+.center-photo
+{
+  width:16.5%;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 600px) {
+  .center-photo
+  {
+    width:25%;
+    margin: 0 auto;
+  }
+  .photo-avatar{
+    width: 150px;
+    height: 150px;
+  }
+}
+.vespa-avatar-div{
+  margin:0px;
+  padding: 0px;
+}
+.nameOf{
+  font-size: 35px;
+    text-align: center;
+    font-family: serif;
+    letter-spacing: 1px;
+    color: #05386B;
+    text-shadow: 0px 0px 3px #05386B;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+h5.job-vespa {
+    font-size: 25px;
+    text-align: center;
+    text-decoration: overline;
+    color: #05386B;
+    text-shadow: 0px 0px 2px #05386B;
+    font-family: 'Rubik Mono One', sans-serif;
+  }
+.views-field-field-adress .field--label{
+  display: none;
+}
+
+.views-field-field-info- h6{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2.1px;
+    font-weight: normal;
+    margin-bottom: 12px;
+    color: #222222;
+}
+.views-field-field-namee h3{
+  font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #222222;
+}
+.views-field-field-job h4{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #222222;
+}
+.views-field-body p{
+  font-family: "Roboto", sans-serif;
+  max-width: 540px;
+  color: #222222;
+  margin-bottom: 40px;
+}
+.views-field-field-data-nastere h6,
+.views-field-field-phone-number h6,
+.views-field-field-email h6,
+.views-field-field-adress h6
+{
+    position: relative;
+    padding-left: 40px;
+    font-size: 16px;
+    color: #222222;
+}
+.col-2{
+  background: #EDF5E1;
+  padding: 30px;
+  box-shadow: 0px 0px 15px #1A396A;
+}
+.views-field-field-avatar .center-photo{
+  margin-top: 50px;
+}
+.views-field-field-avatar .center-photo .photo-avatar{
+  height: 400px;
+  vertical-align: middle;
+  border-style: none;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px blackw;
+}

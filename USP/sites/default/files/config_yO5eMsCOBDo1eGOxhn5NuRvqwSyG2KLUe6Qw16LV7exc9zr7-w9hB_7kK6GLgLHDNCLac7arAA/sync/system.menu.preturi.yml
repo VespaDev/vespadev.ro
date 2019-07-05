@@ -1,0 +1,8 @@
+uuid: beaa84e7-3267-4f5e-9b14-669cca26c10e
+langcode: en
+status: true
+dependencies: {  }
+id: preturi
+label: Preturi
+description: ''
+locked: false

@@ -1,0 +1,8 @@
+uuid: 13bd22e8-5a13-432a-a5d1-2baf9ea0d5ca
+langcode: en
+status: true
+dependencies: {  }
+id: comments
+label: Comments
+target_entity_type_id: comment
+description: ''

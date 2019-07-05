@@ -1,0 +1,17 @@
+uuid: 4d071e37-5601-4c7a-b051-0a60646e5c14
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: vespadev
+type: vendor
+description: 'Info about me'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

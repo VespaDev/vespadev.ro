@@ -1,0 +1,48 @@
+uuid: ab26a400-5afc-4549-a463-d2dea672e9c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.recipe.body
+    - field.field.node.recipe.field_po
+    - field.field.node.recipe.field_titlu
+    - image.style.extra_medium
+    - node.type.recipe
+  module:
+    - image
+    - text
+    - user
+id: node.recipe.default
+targetEntityType: node
+bundle: recipe
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_po:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: extra_medium
+      image_link: content
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_titlu:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

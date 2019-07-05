@@ -1,0 +1,25 @@
+uuid: df5fb341-70f9-41e4-95c2-33ac59808b64
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - vespadev
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: vespadev_branding
+theme: vespadev
+region: sidebar_first
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

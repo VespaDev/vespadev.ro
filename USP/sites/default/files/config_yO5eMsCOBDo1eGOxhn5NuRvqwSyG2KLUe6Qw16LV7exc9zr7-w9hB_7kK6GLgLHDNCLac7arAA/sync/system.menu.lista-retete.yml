@@ -1,0 +1,8 @@
+uuid: 99c9988b-ebf8-4ae5-b19f-1fb14f6d70d1
+langcode: en
+status: true
+dependencies: {  }
+id: lista-retete
+label: 'Lista retete'
+description: ''
+locked: false

@@ -1,0 +1,30 @@
+uuid: 3dca6b7a-5119-4270-8e8b-b7490483f354
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.lista-retete
+  module:
+    - system
+  theme:
+    - bartik
+id: listaretete
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:lista-retete'
+settings:
+  id: 'system_menu_block:lista-retete'
+  label: 'Lista retete'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    pages: "/cake\r\n/clatite\r\n/tiramisu\r\n/ciocolata"
+    negate: false
+    context_mapping: {  }

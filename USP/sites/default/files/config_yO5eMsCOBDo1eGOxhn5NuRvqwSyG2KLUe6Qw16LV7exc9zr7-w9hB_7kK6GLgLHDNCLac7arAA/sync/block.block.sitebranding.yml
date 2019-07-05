@@ -1,0 +1,23 @@
+uuid: b8beb4b0-b3b9-403d-bc62-40c47eda04f8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - vespadev
+id: sitebranding
+theme: vespadev
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: false
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

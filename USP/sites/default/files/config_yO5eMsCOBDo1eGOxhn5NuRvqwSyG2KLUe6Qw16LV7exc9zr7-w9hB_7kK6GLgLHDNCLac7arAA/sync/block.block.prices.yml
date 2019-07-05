@@ -1,0 +1,25 @@
+uuid: aa7c2882-c7cf-48f6-9bef-f0bc15bf021e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.prices
+  module:
+    - system
+  theme:
+    - vespadev
+id: prices
+theme: vespadev
+region: footer_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:prices'
+settings:
+  id: 'system_menu_block:prices'
+  label: Prices
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

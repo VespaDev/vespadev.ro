@@ -1,0 +1,40 @@
+uuid: 69d84ac1-be75-446c-80b2-827836c06d21
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.test_form
+    - field.field.contact_message.test_form.field_nickname
+    - field.field.contact_message.test_form.field_password
+id: contact_message.test_form.default
+targetEntityType: contact_message
+bundle: test_form
+mode: default
+content:
+  field_nickname:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_password:
+    weight: 4
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  mail:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  copy: true
+  message: true
+  name: true
+  preview: true
+  subject: true

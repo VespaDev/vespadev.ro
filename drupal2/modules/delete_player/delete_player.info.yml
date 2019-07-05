@@ -1,0 +1,4 @@
+name: Delete a player
+description: Delete your player
+type: module
+core: 8.x

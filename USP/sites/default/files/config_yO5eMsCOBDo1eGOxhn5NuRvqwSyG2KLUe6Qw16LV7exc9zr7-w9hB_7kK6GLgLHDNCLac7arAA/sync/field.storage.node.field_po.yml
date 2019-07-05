@@ -1,0 +1,30 @@
+uuid: 812b09db-5660-404b-a601-0214f4fcb14a
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+id: node.field_po
+field_name: field_po
+entity_type: node
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: 43b0f7e6-d75a-4a83-b385-ce5dcfff3d66
+    alt: ''
+    title: ''
+    width: 1024
+    height: 1024
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

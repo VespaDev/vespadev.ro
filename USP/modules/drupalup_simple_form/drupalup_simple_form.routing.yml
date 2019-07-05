@@ -1,0 +1,7 @@
+drupalup_simple_form.simple_form:
+  path: '/addPlayer'
+  defaults:
+    _form: '\Drupal\drupalup_simple_form\Form\SimpleForm'
+    _title: 'Register a new player'
+  requirements:
+    _permission: 'access content'

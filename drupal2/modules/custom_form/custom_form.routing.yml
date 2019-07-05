@@ -1,0 +1,7 @@
+custom_form:
+  path: '/editPlayer'
+  defaults:
+    _form: '\Drupal\custom_form\Controller\CustomFormController'
+    _title: 'Edit your player'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,11 @@
+uuid: 8a66c1ba-d071-4296-bcdf-2541f3550cd1
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.extra_medium
+id: photoo
+label: Photo
+image_style_mappings: {  }
+breakpoint_group: responsive_image
+fallback_image_style: extra_medium

@@ -1,0 +1,12 @@
+uuid: 56bcb4b0-81e2-4a16-8fc9-e4d7a35e49d5
+langcode: en
+status: true
+dependencies: {  }
+id: test_form
+label: 'Test Form'
+recipients:
+  - sorin.viespe@softescu.com
+reply: ''
+weight: 0
+message: 'Your request has been sended'
+redirect: /acasa

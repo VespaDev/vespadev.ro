@@ -1,0 +1,19 @@
+uuid: ef6c193d-eaae-417b-bdef-d21116ed6c13
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.test_form
+    - field.storage.contact_message.field_nickname
+id: contact_message.test_form.field_nickname
+field_name: field_nickname
+entity_type: contact_message
+bundle: test_form
+label: Nickname
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

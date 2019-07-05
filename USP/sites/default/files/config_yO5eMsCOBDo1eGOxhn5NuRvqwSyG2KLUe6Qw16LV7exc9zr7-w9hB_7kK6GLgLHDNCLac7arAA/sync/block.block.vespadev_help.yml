@@ -1,0 +1,22 @@
+uuid: 6c1147cf-5f0f-4339-8c56-8ec23e098e05
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - vespadev
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: vespadev_help
+theme: vespadev
+region: sidebar_first
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

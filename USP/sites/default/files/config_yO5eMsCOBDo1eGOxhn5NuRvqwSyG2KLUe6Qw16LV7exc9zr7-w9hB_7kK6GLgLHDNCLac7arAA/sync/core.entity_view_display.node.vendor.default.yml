@@ -1,0 +1,54 @@
+uuid: 25d3b1ac-dce6-4934-ab2c-efcebe330367
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.vendor.body
+    - field.field.node.vendor.field_main_
+    - field.field.node.vendor.field_vespadev
+    - image.style.extra_medium
+    - node.type.vendor
+  module:
+    - image
+    - link
+    - text
+    - user
+id: node.vendor.default
+targetEntityType: node
+bundle: vendor
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_main_:
+    weight: 2
+    label: hidden
+    settings:
+      image_style: extra_medium
+      image_link: content
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_vespadev:
+    weight: 3
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

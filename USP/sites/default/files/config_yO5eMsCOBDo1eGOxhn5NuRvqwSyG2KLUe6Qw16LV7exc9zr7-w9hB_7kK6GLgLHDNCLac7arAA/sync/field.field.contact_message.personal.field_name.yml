@@ -1,0 +1,21 @@
+uuid: fb316c87-57b7-44f4-bc76-261c0231ef56
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.personal
+    - field.storage.contact_message.field_name
+  module:
+    - text
+id: contact_message.personal.field_name
+field_name: field_name
+entity_type: contact_message
+bundle: personal
+label: Nume
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

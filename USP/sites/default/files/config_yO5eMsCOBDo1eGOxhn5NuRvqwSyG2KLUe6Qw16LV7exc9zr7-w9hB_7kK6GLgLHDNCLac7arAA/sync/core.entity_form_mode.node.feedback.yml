@@ -1,0 +1,10 @@
+uuid: 8bc6a110-65c8-4ecb-9757-0dc47a49e4ed
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.feedback
+label: FeedBack
+targetEntityType: node
+cache: true

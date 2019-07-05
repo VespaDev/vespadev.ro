@@ -1,0 +1,7 @@
+delete_player:
+  path: '/delPlayer'
+  defaults:
+    _form: '\Drupal\delete_player\Form\DeleteP'
+    _title: 'Delete your player'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,5 @@
+drupalup_simple_form:
+  version: 1.x
+  css:
+    theme:
+      css/vespa.css: {}
