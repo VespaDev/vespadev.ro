@@ -1,0 +1,5 @@
+name: Vespa Help Page
+description: Creating a custom help page
+type: module
+core: 8.x
+configure: vespa_help.settings

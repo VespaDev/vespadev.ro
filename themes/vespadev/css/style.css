@@ -141,6 +141,8 @@ h5.job-vespa {
     padding-left: 40px;
     font-size: 16px;
     color: #222222;
+    font-weight: 200;
+        letter-spacing: 1px;
 }
 .col-2{
   background: #EDF5E1;
@@ -157,6 +159,7 @@ h5.job-vespa {
   border-style: none;
   border-radius: 20px;
   box-shadow: 0px 0px 15px black;
+  border:15px solid #EDF5E1;
 }
 h1.not-found {
     font-size: 250px;
@@ -174,4 +177,16 @@ h2.page-not {
     letter-spacing: 15px;
     word-spacing: 120px;
     text-decoration: overline;
+}
+.vespa_asks{
+  width: 30%;
+  margin:0 auto;
+  background: #EDF5E1;
+  padding: 50px;
+  box-shadow: 0px 0px 15px #1A396A;
+  margin-top: 50px;
+}
+.sub-asks{
+  padding-left: 50px;
+  padding-right: 50px;
 }

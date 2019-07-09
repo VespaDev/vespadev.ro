@@ -1,0 +1,5 @@
+vespa_help:
+  version: 1.x
+  css:
+    theme:
+      css/vespa_help.css: {}

@@ -1,0 +1,7 @@
+vespa_help:
+  path: '/ask'
+  defaults:
+    _form: '\Drupal\vespa_help\Form\VespaHelp'
+    _title: 'Create Custom questions'
+  requirements:
+    _permission: 'access content'
